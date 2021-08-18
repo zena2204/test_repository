@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica;
+    margin: 0;
+    /*list-style-type:none; */
+
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+header, section, article, nav, footer {
+    width: 595px;
+    height: 842px;
+}
+
+section, article, footer {
+    height: auto;
+}
+
+header {
+    width: 595px;
+    height: 100px;
+    background-image: url('../images/Aussie_Kids_Charity_Logo.png');
+    background-repeat: no-repeat;
+    background-color:rgba(28, 75, 228, 0.366);
+    background-size: contain;  
+    border: 2px solid black;
+    
+}
+header > img {
+    width: 265px;
+    height: 100px;
+}
+
+nav {
+    padding-left: 10px;
+    border: 2px solid black;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color:rgb(125, 154, 252);
+    z-index: 400;
+}
+
+nav > a {
+    padding: 20px;
+    display: inline-block;
+    width: 140px;
+    height: 10px;
+    text-align: center;
+    background-color:rgb(125, 154, 252);
+    margin: 0;
+    border: 2px solid black;
+    font-size: 20px;
+    color: black;
+    
+}
+
+nav > a:hover {
+    background-color: grey;
+}
+
+
+article {
+    font-size: small;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: ghostwhite;
+    font-weight: bold;
+    
+}
+article > h2{
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+
+}
+
+article > p, img{
+    display: inline-block;
+}
+
+article > p{
+    font-size: small;
+    width: 300px;
+    padding-left: 10px;
+    padding: 5px;
+}
+
+article > ul{
+    font-size: small;
+    align-items: center;
+    list-style-type:none;
+    
+}
+
+article > img{
+    width: 250px;
+    padding-left: 10px;
+}
+
+section{
+    padding: 5px;
+    font-size: small;
+    font-family: Arial, Helvetica;
+    background-color: ghostwhite;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: ghostwhite;
+}
+section > h2 {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+section > ul, p{
+    font-size: small;
+}
+
+section > p{
+    text-align: center;
+}
+
+section > ul > li >li, section > ul > li > li > li > li{
+    list-style-type:none;
+}
+
+footer {
+    padding: 5px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: ghostwhite;
+    font-size: medium;
+    border: 2px solid black;
+}
+
+footer > h2 {
+    text-align: center;
+}
+
+footer > ul {
+    font-size: small;
+}
